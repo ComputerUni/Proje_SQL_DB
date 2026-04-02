@@ -18,7 +18,7 @@ namespace Proje_SQL_DB
             InitializeComponent();
         }
 
-        SqlConnection baglanti = new SqlConnection("Data Source=YOUR_PC;Initial Catalog=SatisVT;Integrated Security=True;Trust Server Certificate=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=YOUR_PC_SQL_NAME;Initial Catalog=SatisVT;Integrated Security=True;Trust Server Certificate=True");
         private void Form2_Load(object sender, EventArgs e)
         {
 
